@@ -6,11 +6,11 @@
 </p>
 
 <p align="center">
-  <a href="https://marketplace.visualstudio.com/items?itemName=warm3snow.next-ai-draw-io">
-    <img src="https://img.shields.io/visual-studio-marketplace/i/warm3snow.next-ai-draw-io?logo=visual-studio-code" alt="Downloads"/>
+  <a href="https://marketplace.visualstudio.com/items?itemName=warm3snow.next-ai-drawio">
+    <img src="https://img.shields.io/visual-studio-marketplace/i/warm3snow.next-ai-drawio?logo=visual-studio-code" alt="Downloads"/>
   </a>
-  <a href="https://marketplace.visualstudio.com/items?itemName=warm3snow.next-ai-draw-io">
-    <img src="https://img.shields.io/visual-studio-marketplace/r/warm3snow.next-ai-draw-io?logo=visual-studio-code" alt="Rating"/>
+  <a href="https://marketplace.visualstudio.com/items?itemName=warm3snow.next-ai-drawio">
+    <img src="https://img.shields.io/visual-studio-marketplace/r/warm3snow.next-ai-drawio?logo=visual-studio-code" alt="Rating"/>
   </a>
   <a href="https://github.com/warm3snow/next-ai-draw-io">
     <img src="https://img.shields.io/github/stars/warm3snow/next-ai-draw-io?style=social" alt="GitHub stars"/>
@@ -66,7 +66,7 @@ Next AI Draw.io 是一款强大的 VS Code 插件，将完整的 Draw.io 流程�
 
 ## 安装
 
-- **市场安装**：在 VS Code 扩展市场搜索 “Next AI Draw.io” 并安装，或访问 [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=warm3snow.next-ai-draw-io)。
+- **市场安装**：在 VS Code 扩展市场搜索 “Next AI Draw.io” 并安装，或访问 [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=warm3snow.next-ai-drawio)。
 - **源码安装**：本地编译并安装生成的 `.vsix` 包。
 
 ```bash

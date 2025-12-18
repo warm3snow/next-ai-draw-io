@@ -6,11 +6,11 @@
 </p>
 
 <p align="center">
-  <a href="https://marketplace.visualstudio.com/items?itemName=warm3snow.next-ai-draw-io">
-    <img src="https://img.shields.io/visual-studio-marketplace/i/warm3snow.next-ai-draw-io?logo=visual-studio-code" alt="Downloads"/>
+  <a href="https://marketplace.visualstudio.com/items?itemName=warm3snow.next-ai-drawio">
+    <img src="https://img.shields.io/visual-studio-marketplace/i/warm3snow.next-ai-drawio?logo=visual-studio-code" alt="Downloads"/>
   </a>
-  <a href="https://marketplace.visualstudio.com/items?itemName=warm3snow.next-ai-draw-io">
-    <img src="https://img.shields.io/visual-studio-marketplace/r/warm3snow.next-ai-draw-io?logo=visual-studio-code" alt="Rating"/>
+  <a href="https://marketplace.visualstudio.com/items?itemName=warm3snow.next-ai-drawio">
+    <img src="https://img.shields.io/visual-studio-marketplace/r/warm3snow.next-ai-drawio?logo=visual-studio-code" alt="Rating"/>
   </a>
   <a href="https://github.com/warm3snow/next-ai-draw-io">
     <img src="https://img.shields.io/github/stars/warm3snow/next-ai-draw-io?style=social" alt="GitHub stars"/>
@@ -65,7 +65,7 @@ Next AI Draw.io is a powerful VS Code extension that brings the full Draw.io dia
 
 ## Installation
 
-- **Marketplace**: Search for “Next AI Draw.io” and install, or visit [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=warm3snow.next-ai-draw-io).
+- **Marketplace**: Search for “Next AI Draw.io” and install, or visit [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=warm3snow.next-ai-drawio).
 - **From source**: Build and install the generated `.vsix` package.
 
 ```bash

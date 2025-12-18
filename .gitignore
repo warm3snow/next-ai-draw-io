@@ -1,0 +1,15 @@
+# Node / VS Code extension
+node_modules/
+dist/
+.vscode/
+next-ai-drawio-vscode-*.vsix
+
+# OS / logs
+.DS_Store
+*.log
+npm-debug.log*
+yarn-error.log
+
+# Env / cache
+.env
+coverage/

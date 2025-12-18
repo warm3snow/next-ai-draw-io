@@ -1,0 +1,44 @@
+{
+  "name": "next-ai-drawio",
+  "displayName": "Next AI Draw.io",
+  "description": "Use Next AI Draw.io inside VS Code via an iframe webview.",
+  "version": "0.1.0",
+  "publisher": "warm3snow",
+  "icon": "resources/logo.png",
+  "license": "Apache-2.0",
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "categories": ["Other"],
+  "main": "./dist/extension.js",
+  "activationEvents": [
+    "onCommand:next-ai-drawio.open",
+    "onCommand:next-ai-drawio.setBaseUrl"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "next-ai-drawio.open",
+        "title": "Next AI Draw.io: Open",
+        "category": "Next AI Draw.io"
+      },
+      {
+        "command": "next-ai-drawio.setBaseUrl",
+        "title": "Next AI Draw.io: Set Base URL",
+        "category": "Next AI Draw.io"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p .",
+    "watch": "tsc -watch -p .",
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.10",
+    "@types/vscode": "^1.84.0",
+    "typescript": "^5.7.2",
+    "vsce": "^2.15.0"
+  }
+}

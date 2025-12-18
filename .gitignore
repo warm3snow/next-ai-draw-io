@@ -2,7 +2,7 @@
 node_modules/
 dist/
 .vscode/
-next-ai-drawio-vscode-*.vsix
+next-ai-drawio-*.vsix
 
 # OS / logs
 .DS_Store

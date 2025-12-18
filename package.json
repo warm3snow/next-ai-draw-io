@@ -6,6 +6,14 @@
   "publisher": "warm3snow",
   "icon": "resources/logo.png",
   "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/warm3snow/next-ai-draw-io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/warm3snow/next-ai-draw-io/issues"
+  },
+  "homepage": "https://github.com/warm3snow/next-ai-draw-io#readme",
   "engines": {
     "vscode": "^1.84.0"
   },

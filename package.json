@@ -2,7 +2,7 @@
   "name": "next-ai-drawio",
   "displayName": "Next AI Draw.io",
   "description": "Seamlessly use Next AI Draw.io diagrams in VS Code.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "warm3snow",
   "icon": "resources/logo.png",
   "license": "Apache-2.0",

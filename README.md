@@ -1,3 +1,4 @@
+
 # Next AI Draw.io (VS Code Extension)
 
 <p align="center">
@@ -22,34 +23,66 @@
 <p align="center">
   <a href="README.md">English</a> | <a href="README.zh-CN.md">中文</a>
 </p>
+
 ---
 
 ## Introduction
 
-This VS Code extension embeds a configurable Draw.io experience in a Webview panel. It is built to work with and showcase the upstream project Next AI Draw.io: https://github.com/DayuanJiang/next-ai-draw-io.
+Next AI Draw.io is a powerful VS Code extension that brings the full Draw.io diagramming experience directly into your development workflow. With seamless integration in a secure Webview panel, this extension enables you to create, edit, and manage diagrams without ever leaving VS Code. It is purpose-built for developers who want to visualize ideas, architectures, and workflows efficiently, and supports both public and private (self-hosted) deployments. Next AI Draw.io is based on and fully compatible with the upstream project [Next AI Draw.io](https://github.com/DayuanJiang/next-ai-draw-io), offering a familiar yet enhanced experience tailored for VS Code users.
 
-- Lightweight: edit diagrams without leaving VS Code.
-- Configurable: set `nextAiDrawio.baseUrl` for local development or private deployments.
-- Secure: strict CSP limits loaded resources.
+---
 
-### Quick Start
+## Features
+
+- **Lightweight**: Edit diagrams without leaving VS Code.
+- **Configurable**: Set `nextAiDrawio.baseUrl` for local development or private deployments.
+- **Secure**: Strict Content Security Policy (CSP) limits loaded resources.
+
+---
+
+## Quick Start
 
 1. Open the Command Palette and run: `Next AI Draw.io: Open`.
 2. Run `Next AI Draw.io: Set Base URL` and enter `http://localhost:3000/` for local development. Leave empty to reset to default.
-3. Use “Open in browser” to launch the same URL externally.
+3. Use “Open in browser” in the panel to launch the same URL externally.
 
-### Configuration
+---
 
-- Base URL: use the command `Next AI Draw.io: Set Base URL`.
+## Configuration
+
+- **Base URL**: Use the command `Next AI Draw.io: Set Base URL`.
   - Default: `https://next-ai-drawio.jiang.jp/`
   - The extension ensures protocol and trailing slash; invalid values fall back to default.
 
-### Compatibility
+---
+
+## Compatibility
 
 - VS Code `^1.84.0`
 - macOS, Windows, Linux
 
-### Development & Packaging
+---
+
+## Installation
+
+- **Marketplace**: Search for “Next AI Draw.io” and install, or visit [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=warm3snow.next-ai-draw-io).
+- **From source**: Build and install the generated `.vsix` package.
+
+```bash
+# Install dependencies
+npm install
+
+# Build and package
+npm run compile
+npm run package
+
+# Install the VSIX (via CLI)
+code --install-extension next-ai-drawio-vscode-0.1.0.vsix
+```
+
+---
+
+## Development
 
 ```bash
 # Install dependencies
@@ -65,50 +98,14 @@ npm run watch
 npm run package
 ```
 
-### License
-
-Licensed under Apache License 2.0. See [LICENSE](LICENSE).
 ---
 
-## Overview
+## License
 
-This extension embeds the Next AI Draw.io experience inside VS Code via a secure Webview. It is built for and references the upstream project Next AI Draw.io: https://github.com/DayuanJiang/next-ai-draw-io.
+Licensed under the Apache License 2.0. See [LICENSE](LICENSE).
 
-- Edit diagrams without leaving VS Code.
-- Configure the base URL to point at your local or private deployment.
-- Strict Content Security Policy (CSP) to limit resource origins.
-
-### Quick Start
-
-1. Open the Command Palette and run: `Next AI Draw.io: Open`.
-2. Run `Next AI Draw.io: Set Base URL` and enter `http://localhost:3000/` for local development. Leave empty to reset to default.
-3. Use “Open in browser” in the panel to launch the same URL externally.
-
-### Configuration
-
-- Base URL: use the command `Next AI Draw.io: Set Base URL`.
-  - Default: `https://next-ai-drawio.jiang.jp/`
-  - The extension ensures protocol and trailing slash; invalid values fall back to default.
-
-## Install
-
-- Marketplace: search for “Next AI Draw.io” and install, or visit https://marketplace.visualstudio.com/items?itemName=warm3snow.next-ai-draw-io.
-- From source: build and install the generated `.vsix` package.
-
-```bash
-# Install dependencies
-npm install
-
-# Build and package
-npm run compile
-npm run package
-
-# Install the VSIX (via CLI)
-code --install-extension next-ai-drawio-vscode-0.1.0.vsix
-```
+---
 
 ## Show Support
 
-If you find this useful, please consider leaving a star. Every star motivates continued improvements — thank you to everyone who has starred the project!
-
----
+If you find this extension useful, please consider leaving a star. Every star motivates continued improvements — thank you to everyone who has starred the project!

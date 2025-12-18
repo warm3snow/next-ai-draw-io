@@ -1,7 +1,7 @@
 {
   "name": "next-ai-drawio",
   "displayName": "Next AI Draw.io",
-  "description": "Use Next AI Draw.io inside VS Code via an iframe webview.",
+  "description": "Seamlessly use Next AI Draw.io diagrams in VS Code.",
   "version": "0.1.0",
   "publisher": "warm3snow",
   "icon": "resources/logo.png",
